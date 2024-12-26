@@ -8,9 +8,31 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  margin: 0;
+  padding: 0;
   background-color: #f9f9f9;
+  color: #333;
 }
 
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+p {
+  text-align: center;
+  color: #666;
+  font-size: 1em;
+  margin: 0 auto 20px;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.highlight {
+  color: #77b700;
+}
 header {
   background: #333;
   color: #fff;
@@ -45,20 +67,16 @@ header ul li a:hover {
   color: white;
   text-align: center;
   padding: 80px 20px;
-  position: relative;
-  overflow: hidden;
 }
 
 .banner h1 {
   font-size: 3.5rem;
   margin-bottom: 20px;
-  z-index: 2;
 }
 
 .banner p {
   font-size: 1.2rem;
   margin-bottom: 20px;
-  z-index: 2;
 }
 
 .banner .btn {
@@ -79,13 +97,12 @@ header ul li a:hover {
 .advantages {
   padding: 40px 20px;
   text-align: center;
-  background: #fff;
 }
 
 .advantages h2 {
   font-size: 2.5rem;
-  margin-bottom: 20px;
   color: #4CAF50;
+  margin-bottom: 20px;
 }
 
 .advantage-items {
@@ -116,28 +133,6 @@ header ul li a:hover {
   font-size: 2.5rem;
   color: #4CAF50;
   margin-bottom: 10px;
-}
-
-.advantage-item h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-}
-
-.advantage-item p {
-  font-size: 0.9rem;
-  color: #666;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  width: 90%;
-  margin: 0 auto;
 }
 
 .about-section {
@@ -183,13 +178,6 @@ body {
   display: inline-block;
 }
 
-.about-image img {
-  width: 100%;
-  max-width: 400px;
-  border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
 .services-section {
   padding: 50px 0;
   text-align: center;
@@ -199,13 +187,6 @@ body {
   font-size: 36px;
   color: #4CAF50;
   margin-bottom: 20px;
-}
-
-.service-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
 }
 
 .service-card {
@@ -227,11 +208,6 @@ body {
   font-size: 50px;
   color: #4CAF50;
   margin-bottom: 15px;
-  transition: color 0.3s;
-}
-
-.service-card i:hover {
-  color: #FFA500;
 }
 
 .service-card h3 {
@@ -245,148 +221,6 @@ body {
   color: #666;
   margin-bottom: 15px;
 }
-
-.service-card .read-more {
-  background-color: #FFA500;
-  color: white;
-  padding: 5px 15px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #2b2b2b;
-  color: white;
-}
-
-.portfolio {
-  text-align: center;
-  padding: 20px;
-}
-
-.portfolio h1 {
-  font-size: 2em;
-  margin-bottom: 10px;
-}
-
-.portfolio .highlight {
-  color: #77b700;
-}
-
-.portfolio p {
-  font-size: 0.9em;
-  margin-bottom: 20px;
-  color: #aaa;
-}
-
-.categories {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.categories li {
-  cursor: pointer;
-  color: #777;
-}
-
-.categories .active {
-  color: #fff;
-  font-weight: bold;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-}
-
-.item {
-  background: #333;
-  padding: 20px;
-  text-align: center;
-  border-radius: 5px;
-}
-
-.item img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-.item p {
-  font-size: 1em;
-  font-weight: bold;
-  margin: 0;
-}
-
-.item span {
-  font-size: 0.8em;
-  color: #aaa;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-}
-
-h1 {
-  font-size: 2.5em;
-  text-align: center;
-  margin: 0 0 10px;
-  font-weight: bold;
-}
-
-.highlight {
-  color: #77b700;
-}
-
-p {
-  text-align: center;
-  color: #666;
-  font-size: 1em;
-  margin: 0 auto 20px;
-  max-width: 600px;
-  line-height: 1.6;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-  color: #333;
-}
-
-h1 {
-  font-size: 2.5em;
-  text-align: center;
-  margin: 0 0 10px;
-  font-weight: bold;
-}
-
-.highlight {
-  color: #77b700;
-}
-
-p {
-  text-align: center;
-  color: #666;
-  font-size: 1em;
-  margin: 0 auto 20px;
-  max-width: 600px;
-  line-height: 1.6;
-}
-
 
 .process {
   padding: 50px 20px;
@@ -418,123 +252,20 @@ p {
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
 }
 
-.step i {
-  font-size: 2.5rem;
-  color: #77b700;
-  margin-bottom: 15px;
-}
-
-.step h3 {
-  font-size: 1.2em;
-  margin: 10px 0;
-  color: #333;
-  font-weight: bold;
-}
-
-.step p {
-  font-size: 0.9em;
-  color: #666;
-  margin: 0;
-  line-height: 1.4;
-}
-
-
 @media (max-width: 1024px) {
   .steps {
     gap: 15px;
-  }
-  .step {
-    flex: 1 1 calc(30% - 15px); 
-    max-width: 200px;
   }
 }
 
 @media (max-width: 768px) {
   .step {
-    flex: 1 1 calc(45% - 10px); 
+    flex: 1 1 calc(45% - 10px);
   }
 }
 
 @media (max-width: 480px) {
   .step {
-    flex: 1 1 100%; 
+    flex: 1 1 100%;
   }
-}
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f9f9f9;
-}
-
-h1 {
-  text-align: center;
-  font-size: 2.5em;
-  color: #333;
-  margin: 20px 0;
-}
-
-.highlight {
-  color: #77b700;
-}
-
-.section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-
-.people-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: space-between;
-}
-
-.person {
-  flex: 1 1 calc(50% - 20px);
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.person:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
-}
-
-.avatar {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: #f1f1f1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5em;
-  color: #999;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.person-info {
-  flex: 1;
-}
-
-.name {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 5px;
-}
-
-.description {
-  font-size: 0.9em;
-  color: #666;
 }
